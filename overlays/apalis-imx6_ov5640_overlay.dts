@@ -41,6 +41,8 @@
 	fragment@1 {
 		target-path = "/soc/aips-bus@2100000/i2c@21a8000";
 		__overlay__ {
+			#address-cells = <1>;
+			#size-cells = <0>;
 			status = "okay";
 
 			ov5640_mipi@3c {
@@ -72,6 +74,8 @@
 	fragment@2 {
 		target-path = "/soc/aips-bus@2100000/mipi@21dc000/";
 		__overlay__ {
+			#address-cells = <1>;
+			#size-cells = <0>;
 			status = "okay";
 
 			port@0 {
