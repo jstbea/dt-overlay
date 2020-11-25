@@ -21,6 +21,7 @@ PWD := $(shell pwd)
 
 dtb-y += apalis-imx6_adv7280_overlay.dtbo
 dtb-y += apalis-imx6_atmel-mxt_overlay.dtbo
+dtb-y += apalis-imx6_hdmi_overlay.dtbo
 dtb-y += apalis-imx6_lvds_overlay.dtbo
 dtb-y += apalis-imx6_ov5640_overlay.dtbo
 dtb-y += apalis-imx6_ov5640_v11a_overlay.dtbo
